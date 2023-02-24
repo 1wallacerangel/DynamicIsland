@@ -104,6 +104,7 @@ body{
     line-height: 25px;
 }
 .content p{
+    position: relative;
     color: #e7e7e7;
     font-size: 0.7em;
     cursor: default;
@@ -111,12 +112,24 @@ body{
     opacity: 0;
     transition: 0.5s;
 }
-.content .iphone{
-    margin-bottom: 30px;
+.content span{
+    position: absolute;
+    left: 48px;
+    color: #868686;
+    font-size: 0.6em;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.island_popup.active .content span{
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .island_popup.active .content p{
-    margin-top: 22px;
+    margin-top: 23px;
 }
 .action{
     position: relative;
@@ -132,6 +145,7 @@ body{
     top: 15px;
 }
 ion-icon.red{
+    border: none;
     color: #fd443b;
     transform: rotate(135deg);
     cursor: pointer;
