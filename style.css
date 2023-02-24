@@ -38,7 +38,7 @@ body{
     display: flex;
     justify-content: center;
     /*Tela sempre ligada ou ligada soemnte com hover do mouse*/
-    opacity: 1;
+    opacity: 0;
     transition: 0.5s;
 }
 .box:hover .inner{
