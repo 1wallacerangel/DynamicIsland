@@ -213,3 +213,8 @@ ion-icon.green{
     }
     
 }
+@media(hover: hover) and (pointer: fine) {
+    .box:hover .inner{
+        opacity: 1;
+    }
+}
