@@ -25,6 +25,7 @@ body{
     border-radius: 50px;
     bottom: -750px;
     transition: all 1.6s cubic-bezier(.15, 0, .333, 1);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 .box::before{
     content: '';
