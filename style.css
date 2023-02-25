@@ -38,7 +38,7 @@ body{
     display: flex;
     justify-content: center;
     /*Tela sempre ligada ou ligada soemnte com hover do mouse*/
-    opacity: 1;
+    opacity: 0;
     transition: 0.5s;
 }
 .box:hover .inner{
@@ -205,4 +205,11 @@ ion-icon.green{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+@media (max-width: 750px){
+
+    .box:hover .inner,.box:active .inner{
+        opacity: 1;
+    }
+    
 }
