@@ -144,8 +144,6 @@ body{
     background: #000;
     border-radius: 20px;
     transition: inherit;
-    transition-property: inherit;
-    will-change: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
