@@ -143,11 +143,13 @@ body{
     height: 25px;
     background: #000;
     border-radius: 20px;
-    transition: 0.5s ease-in-out;
+    transition: inherit;
+    transition-property: inherit;
+    will-change: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    filter: drop-shadow(0 1em 2em hsla(0 0% 0%/var(--shadow-opacity, 0)));
+    /*filter: drop-shadow(0 1em 2em hsla(0 0% 0%/var(--shadow-opacity, 0)));*/
 }
 .island_popup:hover{
     width: 200px;
