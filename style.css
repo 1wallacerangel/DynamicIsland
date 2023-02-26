@@ -137,6 +137,7 @@ body{
     filter: drop-shadow(0 0.1em 0.25em rgba(0, 0, 0, 0.1));
   }
 .island_popup{
+    -webkit-user-select: none; /* Safari */
     position: absolute;
     top: 10px;
     width: 90px;
