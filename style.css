@@ -137,6 +137,7 @@ body{
     filter: drop-shadow(0 0.1em 0.25em rgba(0, 0, 0, 0.1));
   }
 .island_popup{
+    -webkit-user-select: none; /* Safari */
     position: absolute;
     top: 10px;
     width: 90px;
@@ -144,7 +145,7 @@ body{
     background: #000;
     border-radius: 20px;
     transition: inherit;
-    pointer-events: all;
+    
     overflow: hidden;
     transition-property: inherit;
     will-change: inherit;
