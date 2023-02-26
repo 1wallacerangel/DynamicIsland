@@ -144,7 +144,7 @@ body{
     background: #000;
     border-radius: 20px;
     transition: inherit;
-    pointer-events: none;
+    pointer-events: inherit;
     transition-property: inherit;
     will-change: inherit;
     display: flex;
