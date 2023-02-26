@@ -143,7 +143,7 @@ body{
     height: 25px;
     background: #000;
     border-radius: 20px;
-    transition: inherit;
+    transition: 0.5s ease-in-out;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -182,9 +182,7 @@ body{
     font-size: 0.6em;
     opacity: 0;
     transition: 0.5s;
-    
 }
-
 .island_popup.active .content span{
     visibility: visible;
     transition: 0.5s;
